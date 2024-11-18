@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Quanlibanquanao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|d:\\quanlibanquanao\\quanlibanquanao\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|D:\\Quanlibanquanao\\quanlibanquanao\\staff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDED410-DEF0-423E-B13F-D14DF1AC115A}|Quanlibanquanao\\Quanlibanquanao.csproj|solutionrelative:quanlibanquanao\\staff.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Admin.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Admin.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Admin.cs",
+              "RelativeToolTip": "Quanlibanquanao\\Admin.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T02:29:56.714Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Login.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Login.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Login.cs [Design]",
+              "RelativeToolTip": "Quanlibanquanao\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:18:34.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Staff.cs [Design]",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Staff.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Staff.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Staff.cs [Design]",
+              "RelativeToolTip": "Quanlibanquanao\\Staff.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:53:25.798Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "warehouse.cs",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\warehouse.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\warehouse.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\warehouse.cs",
+              "RelativeToolTip": "Quanlibanquanao\\warehouse.cs",
+              "ViewState": "AgIAALkBAAAAAAAAAAArwMoBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:41:31.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Program.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Program.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Program.cs",
+              "RelativeToolTip": "Quanlibanquanao\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:01:20.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Login.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Login.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Login.cs",
+              "RelativeToolTip": "Quanlibanquanao\\Login.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowEwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:29:37.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Staff.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Staff.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Staff.cs",
+              "RelativeToolTip": "Quanlibanquanao\\Staff.cs",
+              "ViewState": "AgIAAN4CAAAAAAAAAAArwO8CAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:56:51.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "warehouse.cs [Design]",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\warehouse.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\warehouse.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\warehouse.cs [Design]",
+              "RelativeToolTip": "Quanlibanquanao\\warehouse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:37:03.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Admin.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Admin.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Admin.cs [Design]",
+              "RelativeToolTip": "Quanlibanquanao\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T02:15:26.408Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Staff.Designer.cs",
+              "DocumentMoniker": "D:\\Quanlibanquanao\\Quanlibanquanao\\Staff.Designer.cs",
+              "RelativeDocumentMoniker": "Quanlibanquanao\\Staff.Designer.cs",
+              "ToolTip": "D:\\Quanlibanquanao\\Quanlibanquanao\\Staff.Designer.cs",
+              "RelativeToolTip": "Quanlibanquanao\\Staff.Designer.cs",
+              "ViewState": "AgIAAOMCAAAAAAAAAAAvwO4CAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:56:59.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
