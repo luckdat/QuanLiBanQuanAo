@@ -75,6 +75,20 @@
             this.btnsearchOrderDetailId = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
             this.dgvorderDetails = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtpassword1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnupdatepw = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnexitPassword1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtusername1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtnewPassword = new System.Windows.Forms.TextBox();
+            this.txtconfirmpw = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btn.SuspendLayout();
             this.product.SuspendLayout();
             this.groupBoxProduct1.SuspendLayout();
@@ -86,12 +100,16 @@
             this.orderDetails.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvorderDetails)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn
             // 
             this.btn.Controls.Add(this.product);
             this.btn.Controls.Add(this.orderDetails);
+            this.btn.Controls.Add(this.tabPage1);
             this.btn.Location = new System.Drawing.Point(3, 1);
             this.btn.Name = "btn";
             this.btn.SelectedIndex = 0;
@@ -490,6 +508,7 @@
             // 
             // orderDetails
             // 
+            this.orderDetails.Controls.Add(this.dataGridView1);
             this.orderDetails.Controls.Add(this.groupBox3);
             this.orderDetails.Controls.Add(this.label34);
             this.orderDetails.Controls.Add(this.dgvorderDetails);
@@ -572,6 +591,151 @@
             this.dgvorderDetails.Size = new System.Drawing.Size(848, 491);
             this.dgvorderDetails.TabIndex = 30;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(859, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(300, 594);
+            this.dataGridView1.TabIndex = 48;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.groupBox4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(1165, 602);
+            this.tabPage1.TabIndex = 5;
+            this.tabPage1.Text = "Update Pasword";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox4.Controls.Add(this.txtpassword1);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.btnupdatepw);
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.btnexitPassword1);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.txtusername1);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.txtnewPassword);
+            this.groupBox4.Controls.Add(this.txtconfirmpw);
+            this.groupBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox4.Location = new System.Drawing.Point(342, 145);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(481, 313);
+            this.groupBox4.TabIndex = 21;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Infomation";
+            // 
+            // txtpassword1
+            // 
+            this.txtpassword1.Location = new System.Drawing.Point(147, 96);
+            this.txtpassword1.Multiline = true;
+            this.txtpassword1.Name = "txtpassword1";
+            this.txtpassword1.PasswordChar = '*';
+            this.txtpassword1.Size = new System.Drawing.Size(289, 28);
+            this.txtpassword1.TabIndex = 5;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(42, 210);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(93, 20);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Confirm PW";
+            // 
+            // btnupdatepw
+            // 
+            this.btnupdatepw.Location = new System.Drawing.Point(263, 253);
+            this.btnupdatepw.Name = "btnupdatepw";
+            this.btnupdatepw.Size = new System.Drawing.Size(75, 36);
+            this.btnupdatepw.TabIndex = 4;
+            this.btnupdatepw.Text = "Update";
+            this.btnupdatepw.UseVisualStyleBackColor = true;
+            this.btnupdatepw.Click += new System.EventHandler(this.btnupdatepw_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(42, 161);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(69, 20);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "New PW";
+            // 
+            // btnexitPassword1
+            // 
+            this.btnexitPassword1.Location = new System.Drawing.Point(361, 253);
+            this.btnexitPassword1.Name = "btnexitPassword1";
+            this.btnexitPassword1.Size = new System.Drawing.Size(75, 36);
+            this.btnexitPassword1.TabIndex = 3;
+            this.btnexitPassword1.Text = "Exit";
+            this.btnexitPassword1.UseVisualStyleBackColor = true;
+            this.btnexitPassword1.Click += new System.EventHandler(this.btnexitPassword1_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(42, 104);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Password";
+            // 
+            // txtusername1
+            // 
+            this.txtusername1.Location = new System.Drawing.Point(147, 41);
+            this.txtusername1.Multiline = true;
+            this.txtusername1.Name = "txtusername1";
+            this.txtusername1.Size = new System.Drawing.Size(289, 28);
+            this.txtusername1.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(42, 49);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(83, 20);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Username";
+            // 
+            // txtnewPassword
+            // 
+            this.txtnewPassword.Location = new System.Drawing.Point(147, 153);
+            this.txtnewPassword.Multiline = true;
+            this.txtnewPassword.Name = "txtnewPassword";
+            this.txtnewPassword.PasswordChar = '*';
+            this.txtnewPassword.Size = new System.Drawing.Size(289, 28);
+            this.txtnewPassword.TabIndex = 5;
+            // 
+            // txtconfirmpw
+            // 
+            this.txtconfirmpw.Location = new System.Drawing.Point(147, 202);
+            this.txtconfirmpw.Multiline = true;
+            this.txtconfirmpw.Name = "txtconfirmpw";
+            this.txtconfirmpw.PasswordChar = '*';
+            this.txtconfirmpw.Size = new System.Drawing.Size(289, 28);
+            this.txtconfirmpw.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(33, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(258, 32);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "Update Password";
+            // 
             // warehouse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -597,6 +761,11 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvorderDetails)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -650,5 +819,19 @@
         private System.Windows.Forms.Button btnsearchOrderDetailId;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.DataGridView dgvorderDetails;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox txtpassword1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnupdatepw;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnexitPassword1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtusername1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtnewPassword;
+        private System.Windows.Forms.TextBox txtconfirmpw;
     }
 }

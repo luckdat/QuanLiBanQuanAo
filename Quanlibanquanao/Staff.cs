@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using System.Globalization;
 using System.IO;
 using System.Net.NetworkInformation;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Quanlibanquanao
 {
@@ -813,6 +814,77 @@ namespace Quanlibanquanao
             }
         }
 
- 
+        private void UpdatePassword()
+        {
+            if (txtnewPassword.Text != txtconfirmpw.Text)
+            {
+                MessageBox.Show("New Password and Confirm Password do not match.");
+                return;
+            }
+
+            try
+            {
+                conn.Open();
+
+                // Check if the username and password are correct
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandType = System.Data.CommandType.Text;
+
+                // Use parameters in SQL statement to avoid SQL Injection
+                cmd.CommandText = "SELECT COUNT(*) FROM staff WHERE username = @username AND password = @password";
+                cmd.Parameters.Add("@username", SqlDbType.VarChar).Value = txtusername1.Text;
+                cmd.Parameters.Add("@password", SqlDbType.VarChar).Value = txtpassword1.Text;
+
+                int userExists = (int)cmd.ExecuteScalar();
+
+                if (userExists == 0)
+                {
+                    MessageBox.Show("Incorrect Username or Password.");
+                    return;
+                }
+
+                // If the user exists, proceed to update the password
+                SqlCommand updateCmd = conn.CreateCommand();
+                updateCmd.CommandType = System.Data.CommandType.Text;
+
+                // Use parameters in SQL statement to avoid SQL Injection
+                updateCmd.CommandText = "UPDATE staff SET password = @newpw WHERE username = @username";
+                updateCmd.Parameters.Add("@username", SqlDbType.VarChar).Value = txtusername1.Text;
+                updateCmd.Parameters.Add("@newpw", SqlDbType.VarChar).Value = txtnewPassword.Text;
+
+                updateCmd.ExecuteNonQuery();
+
+                MessageBox.Show("Password updated successfully.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error updating password: " + ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        private void btnupdatepw_Click(object sender, EventArgs e)
+        {
+            UpdatePassword();
+        }
+
+        private void btnexitPassword1_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Exit ?", "Ok", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                return;
+            }
+        }
+
+       
     }
 }
