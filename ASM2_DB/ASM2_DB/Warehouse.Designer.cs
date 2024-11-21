@@ -1,6 +1,6 @@
-﻿namespace Quanlibanquanao
+﻿namespace ASM2_DB
 {
-    partial class warehouse
+    partial class Warehouse
     {
         /// <summary>
         /// Required designer variable.
@@ -110,11 +110,11 @@
             this.btn.Controls.Add(this.product);
             this.btn.Controls.Add(this.orderDetails);
             this.btn.Controls.Add(this.tabPage1);
-            this.btn.Location = new System.Drawing.Point(3, 1);
+            this.btn.Location = new System.Drawing.Point(5, 42);
             this.btn.Name = "btn";
             this.btn.SelectedIndex = 0;
             this.btn.Size = new System.Drawing.Size(1173, 635);
-            this.btn.TabIndex = 2;
+            this.btn.TabIndex = 3;
             // 
             // product
             // 
@@ -131,7 +131,6 @@
             this.product.TabIndex = 1;
             this.product.Text = "Product";
             this.product.UseVisualStyleBackColor = true;
-            this.product.Click += new System.EventHandler(this.product_Click_1);
             // 
             // groupBoxProduct1
             // 
@@ -200,7 +199,6 @@
             this.btnimage.TabIndex = 23;
             this.btnimage.Text = "Image Data";
             this.btnimage.UseVisualStyleBackColor = true;
-            this.btnimage.Click += new System.EventHandler(this.btnimage_Click);
             // 
             // label16
             // 
@@ -341,7 +339,6 @@
             this.btnfilter.TabIndex = 30;
             this.btnfilter.Text = "Filter";
             this.btnfilter.UseVisualStyleBackColor = true;
-            this.btnfilter.Click += new System.EventHandler(this.btnfilter_Click);
             // 
             // label21
             // 
@@ -426,7 +423,6 @@
             this.btnexitProduct.TabIndex = 34;
             this.btnexitProduct.Text = "Exit";
             this.btnexitProduct.UseVisualStyleBackColor = true;
-            this.btnexitProduct.Click += new System.EventHandler(this.btnexitProduct_Click);
             // 
             // btneditproduct
             // 
@@ -436,7 +432,6 @@
             this.btneditproduct.TabIndex = 24;
             this.btneditproduct.Text = "Edit";
             this.btneditproduct.UseVisualStyleBackColor = true;
-            this.btneditproduct.Click += new System.EventHandler(this.btneditproduct_Click);
             // 
             // btncreateProduct
             // 
@@ -446,7 +441,6 @@
             this.btncreateProduct.TabIndex = 23;
             this.btncreateProduct.Text = "Create";
             this.btncreateProduct.UseVisualStyleBackColor = true;
-            this.btncreateProduct.Click += new System.EventHandler(this.btncreateProduct_Click);
             // 
             // label17
             // 
@@ -472,7 +466,6 @@
             this.btnsearchProduct.TabIndex = 26;
             this.btnsearchProduct.Text = "Search";
             this.btnsearchProduct.UseVisualStyleBackColor = true;
-            this.btnsearchProduct.Click += new System.EventHandler(this.btnsearchProduct_Click);
             // 
             // btndeleteProduct
             // 
@@ -482,7 +475,6 @@
             this.btndeleteProduct.TabIndex = 25;
             this.btndeleteProduct.Text = "Delete";
             this.btndeleteProduct.UseVisualStyleBackColor = true;
-            this.btndeleteProduct.Click += new System.EventHandler(this.btndeleteProduct_Click);
             // 
             // dgvproduct
             // 
@@ -518,7 +510,6 @@
             this.orderDetails.TabIndex = 4;
             this.orderDetails.Text = "Order details";
             this.orderDetails.UseVisualStyleBackColor = true;
-            this.orderDetails.Click += new System.EventHandler(this.orderDetails_Click);
             // 
             // dataGridView1
             // 
@@ -552,7 +543,6 @@
             this.btnexitOrderDetails.TabIndex = 48;
             this.btnexitOrderDetails.Text = "Exit";
             this.btnexitOrderDetails.UseVisualStyleBackColor = true;
-            this.btnexitOrderDetails.Click += new System.EventHandler(this.btnexitOrderDetails_Click);
             // 
             // label33
             // 
@@ -578,7 +568,6 @@
             this.btnsearchOrderDetailId.TabIndex = 26;
             this.btnsearchOrderDetailId.Text = "Search";
             this.btnsearchOrderDetailId.UseVisualStyleBackColor = true;
-            this.btnsearchOrderDetailId.Click += new System.EventHandler(this.btnsearchOrderDetailId_Click);
             // 
             // label34
             // 
@@ -671,7 +660,6 @@
             this.btnupdatepw.TabIndex = 4;
             this.btnupdatepw.Text = "Update";
             this.btnupdatepw.UseVisualStyleBackColor = true;
-            this.btnupdatepw.Click += new System.EventHandler(this.btnupdatepw_Click);
             // 
             // label8
             // 
@@ -690,7 +678,6 @@
             this.btnexitPassword1.TabIndex = 3;
             this.btnexitPassword1.Text = "Exit";
             this.btnexitPassword1.UseVisualStyleBackColor = true;
-            this.btnexitPassword1.Click += new System.EventHandler(this.btnexitPassword1_Click);
             // 
             // label4
             // 
@@ -736,14 +723,14 @@
             this.txtconfirmpw.Size = new System.Drawing.Size(289, 28);
             this.txtconfirmpw.TabIndex = 5;
             // 
-            // warehouse
+            // Warehouse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 636);
+            this.ClientSize = new System.Drawing.Size(1183, 718);
             this.Controls.Add(this.btn);
-            this.Name = "warehouse";
-            this.Text = "Home";
+            this.Name = "Warehouse";
+            this.Text = "Warehouse";
             this.btn.ResumeLayout(false);
             this.product.ResumeLayout(false);
             this.product.PerformLayout();
@@ -812,6 +799,7 @@
         private System.Windows.Forms.DataGridView dgvproduct;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabPage orderDetails;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnexitOrderDetails;
         private System.Windows.Forms.Label label33;
@@ -819,7 +807,6 @@
         private System.Windows.Forms.Button btnsearchOrderDetailId;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.DataGridView dgvorderDetails;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox4;

@@ -1,6 +1,6 @@
-﻿namespace Quanlibanquanao
+﻿namespace ASM2_DB
 {
-    partial class staff
+    partial class Staff
     {
         /// <summary>
         /// Required designer variable.
@@ -109,16 +109,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtnewPassword = new System.Windows.Forms.TextBox();
             this.txtconfirmpw = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtpassword = new System.Windows.Forms.TextBox();
-            this.txtusername = new System.Windows.Forms.TextBox();
-            this.btnexitLogin = new System.Windows.Forms.Button();
-            this.txtupdatePassword = new System.Windows.Forms.Button();
-            this.txtconfirmPassword = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.btnexitpassword.SuspendLayout();
             this.product.SuspendLayout();
             this.groupboxFilter.SuspendLayout();
@@ -140,8 +130,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvorderDetails)).BeginInit();
             this.tabPage1.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // btnexitpassword
@@ -151,11 +139,11 @@
             this.btnexitpassword.Controls.Add(this.order);
             this.btnexitpassword.Controls.Add(this.orderDetails);
             this.btnexitpassword.Controls.Add(this.tabPage1);
-            this.btnexitpassword.Location = new System.Drawing.Point(3, 1);
+            this.btnexitpassword.Location = new System.Drawing.Point(12, 12);
             this.btnexitpassword.Name = "btnexitpassword";
             this.btnexitpassword.SelectedIndex = 0;
             this.btnexitpassword.Size = new System.Drawing.Size(1173, 635);
-            this.btnexitpassword.TabIndex = 1;
+            this.btnexitpassword.TabIndex = 2;
             // 
             // product
             // 
@@ -170,7 +158,6 @@
             this.product.TabIndex = 1;
             this.product.Text = "Product";
             this.product.UseVisualStyleBackColor = true;
-            this.product.Click += new System.EventHandler(this.product_Click);
             // 
             // groupboxFilter
             // 
@@ -198,7 +185,6 @@
             this.btnexitProduct.TabIndex = 34;
             this.btnexitProduct.Text = "Exit";
             this.btnexitProduct.UseVisualStyleBackColor = true;
-            this.btnexitProduct.Click += new System.EventHandler(this.btnexitProduct_Click);
             // 
             // txtminPrice
             // 
@@ -215,7 +201,6 @@
             this.btnfilter.TabIndex = 30;
             this.btnfilter.Text = "Filter";
             this.btnfilter.UseVisualStyleBackColor = true;
-            this.btnfilter.Click += new System.EventHandler(this.btnfilter_Click);
             // 
             // groupboxImageProduct
             // 
@@ -312,7 +297,6 @@
             this.btnsearchProduct.TabIndex = 26;
             this.btnsearchProduct.Text = "Search";
             this.btnsearchProduct.UseVisualStyleBackColor = true;
-            this.btnsearchProduct.Click += new System.EventHandler(this.btnsearchProduct_Click);
             // 
             // dgvproduct
             // 
@@ -348,7 +332,6 @@
             this.customer.TabIndex = 2;
             this.customer.Text = "Customer";
             this.customer.UseVisualStyleBackColor = true;
-            this.customer.Click += new System.EventHandler(this.customer_Click_1);
             // 
             // groupBox2
             // 
@@ -455,7 +438,6 @@
             this.btnexitCustomer.TabIndex = 41;
             this.btnexitCustomer.Text = "Exit";
             this.btnexitCustomer.UseVisualStyleBackColor = true;
-            this.btnexitCustomer.Click += new System.EventHandler(this.btnexitCustomer_Click);
             // 
             // btneditCustomer
             // 
@@ -465,7 +447,6 @@
             this.btneditCustomer.TabIndex = 24;
             this.btneditCustomer.Text = "Edit";
             this.btneditCustomer.UseVisualStyleBackColor = true;
-            this.btneditCustomer.Click += new System.EventHandler(this.btneditCustomer_Click_1);
             // 
             // btncreateCustomer
             // 
@@ -475,7 +456,6 @@
             this.btncreateCustomer.TabIndex = 23;
             this.btncreateCustomer.Text = "Create";
             this.btncreateCustomer.UseVisualStyleBackColor = true;
-            this.btncreateCustomer.Click += new System.EventHandler(this.btncreateCustomer_Click_1);
             // 
             // label28
             // 
@@ -501,7 +481,6 @@
             this.btnsearchCustomer.TabIndex = 26;
             this.btnsearchCustomer.Text = "Search";
             this.btnsearchCustomer.UseVisualStyleBackColor = true;
-            this.btnsearchCustomer.Click += new System.EventHandler(this.btnsearchCustomer_Click_1);
             // 
             // btndeleteCustomer
             // 
@@ -511,7 +490,6 @@
             this.btndeleteCustomer.TabIndex = 25;
             this.btndeleteCustomer.Text = "Delete";
             this.btndeleteCustomer.UseVisualStyleBackColor = true;
-            this.btndeleteCustomer.Click += new System.EventHandler(this.btndeleteCustomer_Click_1);
             // 
             // label27
             // 
@@ -547,7 +525,6 @@
             this.order.TabIndex = 3;
             this.order.Text = "Orders";
             this.order.UseVisualStyleBackColor = true;
-            this.order.Click += new System.EventHandler(this.order_Click_1);
             // 
             // groupBox1
             // 
@@ -573,7 +550,6 @@
             this.btnexitOrder.TabIndex = 44;
             this.btnexitOrder.Text = "Exit";
             this.btnexitOrder.UseVisualStyleBackColor = true;
-            this.btnexitOrder.Click += new System.EventHandler(this.btnexitOrder_Click);
             // 
             // btneditOrder
             // 
@@ -583,7 +559,6 @@
             this.btneditOrder.TabIndex = 24;
             this.btneditOrder.Text = "Edit";
             this.btneditOrder.UseVisualStyleBackColor = true;
-            this.btneditOrder.Click += new System.EventHandler(this.btneditOrder_Click);
             // 
             // btncreateOrder
             // 
@@ -593,7 +568,6 @@
             this.btncreateOrder.TabIndex = 23;
             this.btncreateOrder.Text = "Create";
             this.btncreateOrder.UseVisualStyleBackColor = true;
-            this.btncreateOrder.Click += new System.EventHandler(this.btncreateOrder_Click);
             // 
             // label32
             // 
@@ -619,7 +593,6 @@
             this.btnsearchOrder.TabIndex = 26;
             this.btnsearchOrder.Text = "Search";
             this.btnsearchOrder.UseVisualStyleBackColor = true;
-            this.btnsearchOrder.Click += new System.EventHandler(this.btnsearchOrder_Click);
             // 
             // btndeleteOrder
             // 
@@ -629,7 +602,6 @@
             this.btndeleteOrder.TabIndex = 25;
             this.btndeleteOrder.Text = "Delete";
             this.btndeleteOrder.UseVisualStyleBackColor = true;
-            this.btndeleteOrder.Click += new System.EventHandler(this.btndeleteOrder_Click);
             // 
             // label31
             // 
@@ -746,7 +718,6 @@
             this.orderDetails.TabIndex = 4;
             this.orderDetails.Text = "Order details";
             this.orderDetails.UseVisualStyleBackColor = true;
-            this.orderDetails.Click += new System.EventHandler(this.orderDetails_Click);
             // 
             // dataGridView1
             // 
@@ -780,7 +751,6 @@
             this.btnexitOrderDetails.TabIndex = 48;
             this.btnexitOrderDetails.Text = "Exit";
             this.btnexitOrderDetails.UseVisualStyleBackColor = true;
-            this.btnexitOrderDetails.Click += new System.EventHandler(this.btnexitOrderDetails_Click);
             // 
             // label33
             // 
@@ -806,7 +776,6 @@
             this.btnsearchOrderDetailId.TabIndex = 26;
             this.btnsearchOrderDetailId.Text = "Search";
             this.btnsearchOrderDetailId.UseVisualStyleBackColor = true;
-            this.btnsearchOrderDetailId.Click += new System.EventHandler(this.btnsearchOrderDetailId_Click);
             // 
             // label34
             // 
@@ -899,7 +868,6 @@
             this.btnupdatepw.TabIndex = 4;
             this.btnupdatepw.Text = "Update";
             this.btnupdatepw.UseVisualStyleBackColor = true;
-            this.btnupdatepw.Click += new System.EventHandler(this.btnupdatepw_Click);
             // 
             // label8
             // 
@@ -918,7 +886,6 @@
             this.btnexitPassword1.TabIndex = 3;
             this.btnexitPassword1.Text = "Exit";
             this.btnexitPassword1.UseVisualStyleBackColor = true;
-            this.btnexitPassword1.Click += new System.EventHandler(this.btnexitPassword1_Click);
             // 
             // label4
             // 
@@ -964,107 +931,14 @@
             this.txtconfirmpw.Size = new System.Drawing.Size(289, 28);
             this.txtconfirmpw.TabIndex = 5;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 95);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Password";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Username";
-            // 
-            // txtpassword
-            // 
-            this.txtpassword.Location = new System.Drawing.Point(149, 92);
-            this.txtpassword.Multiline = true;
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.PasswordChar = '*';
-            this.txtpassword.Size = new System.Drawing.Size(289, 28);
-            this.txtpassword.TabIndex = 5;
-            // 
-            // txtusername
-            // 
-            this.txtusername.Location = new System.Drawing.Point(149, 36);
-            this.txtusername.Multiline = true;
-            this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(289, 28);
-            this.txtusername.TabIndex = 6;
-            // 
-            // btnexitLogin
-            // 
-            this.btnexitLogin.Location = new System.Drawing.Point(363, 191);
-            this.btnexitLogin.Name = "btnexitLogin";
-            this.btnexitLogin.Size = new System.Drawing.Size(75, 36);
-            this.btnexitLogin.TabIndex = 3;
-            this.btnexitLogin.Text = "Exit";
-            this.btnexitLogin.UseVisualStyleBackColor = true;
-            // 
-            // txtupdatePassword
-            // 
-            this.txtupdatePassword.Location = new System.Drawing.Point(260, 191);
-            this.txtupdatePassword.Name = "txtupdatePassword";
-            this.txtupdatePassword.Size = new System.Drawing.Size(75, 34);
-            this.txtupdatePassword.TabIndex = 4;
-            this.txtupdatePassword.Text = "Update";
-            this.txtupdatePassword.UseVisualStyleBackColor = true;
-            // 
-            // txtconfirmPassword
-            // 
-            this.txtconfirmPassword.Location = new System.Drawing.Point(149, 141);
-            this.txtconfirmPassword.Multiline = true;
-            this.txtconfirmPassword.Name = "txtconfirmPassword";
-            this.txtconfirmPassword.PasswordChar = '*';
-            this.txtconfirmPassword.Size = new System.Drawing.Size(289, 28);
-            this.txtconfirmPassword.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 149);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Confirm PW";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(498, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 62;
-            this.dataGridView2.RowTemplate.Height = 28;
-            this.dataGridView2.Size = new System.Drawing.Size(661, 591);
-            this.dataGridView2.TabIndex = 31;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(5, 255);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersWidth = 62;
-            this.dataGridView3.RowTemplate.Height = 28;
-            this.dataGridView3.Size = new System.Drawing.Size(487, 339);
-            this.dataGridView3.TabIndex = 32;
-            // 
-            // staff
+            // Staff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 636);
+            this.ClientSize = new System.Drawing.Size(1198, 656);
             this.Controls.Add(this.btnexitpassword);
-            this.Name = "staff";
-            this.Text = "Home";
+            this.Name = "Staff";
+            this.Text = "Staff";
             this.btnexitpassword.ResumeLayout(false);
             this.product.ResumeLayout(false);
             this.product.PerformLayout();
@@ -1099,8 +973,6 @@
             this.tabPage1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1110,17 +982,17 @@
         private System.Windows.Forms.TabControl btnexitpassword;
         private System.Windows.Forms.TabPage product;
         private System.Windows.Forms.GroupBox groupboxFilter;
+        private System.Windows.Forms.Button btnexitProduct;
         private System.Windows.Forms.TextBox txtminPrice;
         private System.Windows.Forms.Button btnfilter;
+        private System.Windows.Forms.GroupBox groupboxImageProduct;
+        private System.Windows.Forms.PictureBox pictureBoxProduct;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox txtmaxPrice;
         private System.Windows.Forms.TextBox txtcategory1;
-        private System.Windows.Forms.GroupBox groupboxImageProduct;
-        private System.Windows.Forms.PictureBox pictureBoxProduct;
         private System.Windows.Forms.GroupBox groupboxproduct;
-        private System.Windows.Forms.Button btnexitProduct;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtproductId;
         private System.Windows.Forms.Button btnsearchProduct;
@@ -1167,6 +1039,7 @@
         private System.Windows.Forms.TextBox txtorderDate;
         private System.Windows.Forms.DataGridView dgvorder;
         private System.Windows.Forms.TabPage orderDetails;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnexitOrderDetails;
         private System.Windows.Forms.Label label33;
@@ -1174,30 +1047,18 @@
         private System.Windows.Forms.Button btnsearchOrderDetailId;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.DataGridView dgvorderDetails;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        //private System.Windows.Forms.TabPage UpdatePassword;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtconfirmPassword;
-        private System.Windows.Forms.TextBox txtpassword;
-        private System.Windows.Forms.TextBox txtusername;
-        private System.Windows.Forms.Button btnexitLogin;
-        private System.Windows.Forms.Button txtupdatePassword;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtconfirmpw;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox txtpassword1;
-        private System.Windows.Forms.TextBox txtusername1;
-        private System.Windows.Forms.Button btnexitPassword1;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnupdatepw;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnexitPassword1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtusername1;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtnewPassword;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtconfirmpw;
     }
 }
